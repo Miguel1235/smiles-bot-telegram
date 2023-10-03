@@ -54,11 +54,7 @@ bot.catch((err, ctx) => {
 });
 
 // start the bot
-bot.launch({
-  webhook: {
-    domain: "https://smiles-bot-telegram-production.up.railway.app/",
-  },
-});
+bot.launch();
 
 // Enable graceful stop
 process.once("SIGINT", () => {
