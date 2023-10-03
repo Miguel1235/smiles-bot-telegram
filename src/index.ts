@@ -54,7 +54,13 @@ bot.catch((err, ctx) => {
 });
 
 // start the bot
-bot.launch();
+bot.launch({
+  webhook: {
+    domain: "smiles-bot-telegram-production.up.railway.app",
+    // Port to listen on; e.g.: 8080
+    port: 80,
+  },
+});
 
 // Enable graceful stop
 process.once("SIGINT", () => {
