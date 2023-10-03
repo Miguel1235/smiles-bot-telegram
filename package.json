@@ -1,0 +1,25 @@
+{
+  "name": "smiles-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --strict",
+    "start": "node --watch dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@types/luxon": "^3.3.2",
+    "ajv": "^8.12.0",
+    "axios": "^1.5.0",
+    "axios-retry": "^3.7.0",
+    "luxon": "^3.4.2",
+    "millify": "^6.1.0",
+    "telegraf": "^4.14.0"
+  }
+}

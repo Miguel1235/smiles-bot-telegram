@@ -1,0 +1,910 @@
+{
+  "fareuid": "jj72prewjp",
+  "fareuid2": "bplkd8hftf",
+  "highlightText": "SMILES_CLUB",
+  "type": "SEGMENT_1",
+  "type2": "SEGMENT_2",
+  "uid": "6vy43q3nwvl",
+  "uid2": "0o9nplrxnk8",
+  "pricingAdmin": false,
+  "flightList": [
+    {
+      "type": "SEGMENT_1",
+      "uid": "6vy43q3nwvl",
+      "stops": 1,
+      "cabin": "ECONOMIC",
+      "sourceGDS": "AMADEUS",
+      "tripType": "Award One Way",
+      "availableSeats": 7,
+      "departure": {
+        "date": "2023-09-03T01:44:00",
+        "airport": {
+          "code": "MDZ",
+          "name": "Governor Francisco Gabrielli",
+          "city": "Mendoza",
+          "country": "Argentina"
+        }
+      },
+      "arrival": {
+        "date": "2023-09-03T13:39:00",
+        "airport": {
+          "code": "MIA",
+          "name": "Miami",
+          "city": "Miami",
+          "country": "Estados Unidos"
+        }
+      },
+      "airline": {
+        "code": "CM",
+        "name": "COPA"
+      },
+      "baggage": {
+        "free": "true",
+        "quantity": 1,
+        "code": "N"
+      },
+      "validatingAirlineCode": "CM",
+      "durationNumber": 1255,
+      "duration": {
+        "hours": 12,
+        "minutes": 55
+      },
+      "timeStop": {
+        "hours": 2,
+        "minutes": 54
+      },
+      "hourMainStop": "06:40-09:34",
+      "airportMainStop": {
+        "code": "PTY",
+        "name": "Panama City Tocumen",
+        "city": "Panamá",
+        "country": "Panamá"
+      },
+      "legList": [
+        {
+          "cabin": "ECONOMIC",
+          "departure": {
+            "date": "2023-09-03T01:44:00",
+            "airport": {
+              "code": "MDZ",
+              "name": "Governor Francisco Gabrielli",
+              "city": "Mendoza",
+              "country": "Argentina",
+              "timezone": "America/Argentina/Mendoza"
+            }
+          },
+          "arrival": {
+            "date": "2023-09-03T06:40:00",
+            "airport": {
+              "code": "PTY",
+              "name": "Panama City Tocumen",
+              "city": "Panamá",
+              "country": "Panamá",
+              "timezone": "America/Panama"
+            }
+          },
+          "flightNumber": "421",
+          "marketingAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "operationAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "equipment": "738",
+          "stops": 0,
+          "isConnection": "true",
+          "isMainLeg": true,
+          "congener": {
+            "resBookDesigCode": "X",
+            "eTicketEligibility": "Eligible",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671",
+            "commentList": [
+              "Outbound",
+              "FareType=RX",
+              "TICKETS ARE NON-REFUNDABLE",
+              "LAST TKT DTE",
+              "03SEP23",
+              " - SEE ADV PURCHASE",
+              "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+              "PRIVATE RATES USED *F*",
+              "CORPORATE NAME: SMILES2",
+              "FreeBaggage=True"
+            ],
+            "fareReference": "X"
+          },
+          "duration": 416
+        },
+        {
+          "cabin": "ECONOMIC",
+          "departure": {
+            "date": "2023-09-03T09:34:00",
+            "airport": {
+              "code": "PTY",
+              "name": "Panama City Tocumen",
+              "city": "Panamá",
+              "country": "Panamá",
+              "timezone": "America/Panama"
+            }
+          },
+          "arrival": {
+            "date": "2023-09-03T13:39:00",
+            "airport": {
+              "code": "MIA",
+              "name": "Miami",
+              "city": "Miami",
+              "country": "Estados Unidos",
+              "timezone": "America/New_York"
+            }
+          },
+          "flightNumber": "334",
+          "marketingAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "operationAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "equipment": "738",
+          "stops": 0,
+          "isConnection": "true",
+          "isMainLeg": "false",
+          "congener": {
+            "resBookDesigCode": "X",
+            "eTicketEligibility": "Eligible",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671",
+            "commentList": [
+              "Outbound",
+              "FareType=RX",
+              "TICKETS ARE NON-REFUNDABLE",
+              "LAST TKT DTE",
+              "03SEP23",
+              " - SEE ADV PURCHASE",
+              "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+              "PRIVATE RATES USED *F*",
+              "CORPORATE NAME: SMILES2",
+              "FreeBaggage=True"
+            ],
+            "fareReference": "X"
+          },
+          "duration": 185
+        }
+      ],
+      "fareList": [
+        {
+          "uid": "jj72prewjp",
+          "congener": {
+            "fareReference": "X/X/X/X",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671"
+          },
+          "type": "SMILES_CLUB",
+          "baseMiles": 85000,
+          "money": 0,
+          "miles": 77800,
+          "airlineFareAmount": 206.03,
+          "airlineFare": 0,
+          "airlineTax": 135.4,
+          "legListCost": "MDZ-PTY = 134.01 / PTY-MIA = 72.02",
+          "legListCurrency": "USD",
+          "marginRecalc": null,
+          "recalculate": false,
+          "ruleText": "<p><strong class=\"icon icon-flight\">1. TRAMOS DISPONIBLES</strong></p><p>El viaje puede ser de Ida, ida y vuelta com múltiples tramos. No será permitida la realización de Stopovers. El participante podrá emitir un pasaje aéreo desde que haya disponibilidad, observando las reglas de anticipación en el check-in.</p><p>    <strong class=\"icon icon-luggage\">2. EQUIPAJE</strong></p><p>Para el vuelo seleccionado La franquicia de equipaje es de hasta 1 pieza(s). Para detalles sobre franquicias y restricciones de equipaje (dimensiones, peso, restricciones, etc.) el Participante deberá contactarse directamente con la compañía aérea operadora del vuelo.</p><p>La franquicia de equipaje podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo com el tipo de tarifa y compañía aérea elegida.</p><p>    <strong class=\"icon icon-booking\">3. SELECCIÓN DE ASIENTOS</strong></p><p>El Participante deberá contactarse com la compañía aérea operadora del vuelo para selecionar su asiento. Para ello, debe tener en mano el código de reserva de la compañía associada/Número de Pasaje.</p><p>*El Pasaje de la compañía aérea associada internacional que tenga tramos de conexión operados por GOL: El Participante deberá contactarse con el Centro de atención Smiles para la selección de asiento del Tramo operado por GOL.</p><p>    <strong class=\"icon icon-doc\">4. DOCUMENTACIÓN DE EMBARQUE</strong></p><p>4.1 El pasajero es responsable por su propia documentación necesaria para el embarque, desembarque y tránsito en las escalas y conexiones (visado, pasaporte, vacunación, seguro de viaje, eventual valor a pagar en inmigración, etc.). El pasajero deberá verificar cuáles son los documentos necesarios para el embarque de niños de pecho y menores de edad, acompañados o no de responsables, familiares y terceros.</p><p>4.2 El pasajero debe asegurarse de que su nombre y apelido estén completos de forma idéntica a como constan en sus documentos de identificación, no siendo permitida la alteración posterior a la emisión.</p><p>    <strong class=\"icon icon-refund\">5. CANCELACIÓN / REEMBOLSO</strong></p><p>Solo se permite la cancelación/reembolso total para pasajes no utilizados dentro de su validez mediante el pago de la tarifa de reembolso de millas, del valor de US$ 180,00 por pasajero y por tramo. Solo las Millas Smiles con validez vigente serán devueltas a su cuenta, con la misma validez de la acumulación que las generó. El valor pago referente a la tasa de embarque será reembolsado en la misma tarjeta de crédito utilizada.</p><p>Los valores presentados en dólares serán convertidos en la fecha de la solicitud del reembolso de Millas y la cotización será la correspondiente al día de la solicitud. La conversión será realizada previamente por Smiles y cobrada por el Participante en pesos (moneda corriente nacional argentina).</p><p>La cancelación/reembolso podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo com el tipo de tarifa y la compañía aérea elegida. <p>Las cancelaciones solicitadas hasta las 23:59 horas del día de la emisión (hora oficial de la República Argentina) podrán ser realizadas sin costo adicional, siempre que el primer tramo del itinerario tenga fecha más allá de los  8(ocho) días computados a partir de la fecha de emision. A los efectos del producto Viaje Fácil, se considerará realizada la emisión el día de la reserva. El producto viaje fácil no puede ser aplicado a tarifas con condición de no reembolsables.</p></p><p>    <strong class=\"icon icon-mileback\">6. DEVOLUCIÓN DE MILLAS</strong></p><p>De ser pertinente el reembolso, solo las Millas Smiles válidas al momento del pedido serán acreditadas en la Cuenta Smiles con la validez original de la acumulación que las generó. .</p><p>    <strong class=\"icon icon-attendance\">7. NO PRESENTACIÓN AL EMBARQUE (NO-SHOW)</strong></p><p>En el caso de no presentación al embarque, el Participante perderá la cantidad de Millas Smiles utilizadas en el canje del Pasaje. La tasa de embarque será devuelta mediante la solicitud del Participante, acreditándose en la misma tarjeta de crédito el valor utilizado en dinero.</p><p>    <strong class=\"icon icon-endorsement\">8. ENDOSOS Y TRANSFERENCIA DE PASAJES</strong></p><p>Los Pasajes emitidos con Millas Smiles son de caracter personal, o sea, no son endosables ni transferibles, ni permiten cambios de fecha ni de itinerario.</p><p>    <strong class=\"icon icon-credit\">9. CRÉDITO DE MILLAS</strong></p><p>Los pasajes emitidos con Millas Smiles no son elegibles para la acumulación de Millas Smiles en el Programa Smiles.</p><p>    <strong class=\"icon icon-children\">10. REGLAS PARA NIÑOS</strong></p><p>No se concede ningún tipo de descuento sobre la cantidad de Millas Smiles presentadas al momento del canje para niños de 2 a 12 años no cumplidos (CHD), o sea, los niños de 02 (dos) a 12 (doce) años no cumplidos no tendrán ninguna exención ni descuento en la cantidad de Millas Smiles y/o tasas necesarias para la emisión de su pasaje aéreo. Los niños de pecho (0 a 2 años no cumplidos) viajan gratis, y el Participante deberá contactarse con la compañía aérea elegida para sumarlos a su Pasaje.</p><p class=\"icon icon-definition\">1. DEFINIÇÕES</p><p>1.1. Para fins do presente Contrato, utilizam-se as seguintes definições:</p><p>“ANAC”: Agência Nacional de Aviação Civil, agência estatal brasileira regulamentadora da aviação civil;<br/>“Bilhete(s) Aéreo(s)”: É a passagem aérea emitida pela Parceira Aérea, resgatada nos canais de resgate da SMILES por meio de Milhas Smiles pelo Participante, para ser utilizada em voo(s) da Parceira Aérea;<br/>“Check in”: entrada ou embarque em voo doméstico ou internacional;<br/> “Código Brasileiro de Aeronáutica”: norma que dispõe sobre as regras relativas ao espaço aéreo brasileiro, incluindo o transporte de passageiros;<br/>“Contrato de Transporte”: disposições, deveres e obrigações constantes do contrato que regula o transporte aéreo,  por meio do qual o Participante contrata a respectiva Parceira Aérea quando do resgate do Bilhete Aéreo, e a Parceira Aérea se obriga a transportar, por meio de aeronave, o Participante, sua(s) bagagem(ns) e eventual produto acessório contratado;<br/>“Convenção de Varsóvia”: norma internacional que unifica as regras relativas ao transporte aéreo internacional;<br/>“Endosso”: troca da passagem aérea de uma Parceira Aérea para outra Parceira Aérea;<br/>“Escala técnica”: utilização de aeroporto para fins que não sejam o embarque ou desembarque de passageiros;<br/>“Conexão”: utilização de aeroporto para fins de troca de aeronave, ou seja, embarque e desembarque de passageiros antes do destino final;<br/>“Intermediação”: conjunto de meios planejadamente dispostos, sejam eles físicos ou lógicos, objetivando fazer a ligação entre a Parceira Aérea o sistema da SMILES, no qual o Participante insere seus dados para obter a aquisição de Bilhetes Aéreos;<br/>“Milhas Smiles”: É forma de pontuação obtida no Programa Smiles, segundo critérios estabelecidos pela SMILES, que possibilitará ao Participante o resgate de Bilhetes Aéreos;<br/>“No show”: não comparecimento do passageiro em tempo hábil para o embarque;<br/>“Overbooking”: venda de passagens aéreas pelas Parceiras Aéreas em maior número do que o número de assentos disponíveis no avião, para compensar eventuais ausências ou desistências de passageiros;<br/>“Parceiras Aéreas”: empresas de transporte aéreo parceiras da SMILES, responsáveis pelo transporte de passageiros;<br/>“Participante”: pessoa física cadastrada no Programa Smiles;<br/>“Programa Smiles”: programa de coalizão mantido e administrado pela SMILES, constituído de uma plataforma virtual para o acúmulo e resgate de Milhas Smiles para obtenção de prêmios, vantagens ou benefícios, dentre eles o resgate de Bilhetes Aéreos pelos Participantes nas Parceiras Aéreas;<br/>“Smiles Viagens”: Smiles Viagens e Turimos S.A., empresa subsidiária da SMILES, intermediadora de compra e venda de Tarifas Comerciais, entre  Parceira Aérea e a SMILES;<br/> “Tarifa Award”: tipo de tarifa com características negociadas entre a SMILES e a Parceira Aérea;<br/>“Tarifa Comercial”: tipo de tarifa com características negociadas entre a Smiles Viagens, a qual intermedeia a relação entre SMILES e a Parceira Aérea.</p><p class=\"icon icon-endorsement\">2. BILHETES AÉREOS</p><p>2.1. O Participante, ao adquirir o Bilhete Aéreo escolhido, submete-se a todas as condições específicas estipuladas pela Parceira Aérea quanto ao tipo da tarifa escolhida, seja ela Comercial ou Award, as quais são disponibilizadas no momento do resgate.<br/>2.1.1. Ao efetuar resgates através da SMILES, o Participante garante que: (i) é maior de idade; (ii) possui plena capacidade para celebrar contratos; (iii) só utiliza os canais de resgate da SMILES para você e/ou para outra pessoa a qual você possua autorização para atuar em seu nome; e, (iv) toda a informação que fornece à SMILES é verídica, exata, atual e completa.<br/>2.2. Os canais de resgate da SMILES, seja aplicativo móvel, site mobile, central de atendimento, site convencional, ou outros canais futuramente disponíveis aos Participantes pela SMILES, permite a emissão de Bilhetes Aéreos de ida, ida e volta ou com múltiplos trechos.<br/> 2.3. O Participante poderá emitir o Bilhete Aéreo desde que haja disponibilidade, observando as regras de antecedência no Checkin.<br/>2.4. O Participante deverá, no momento do resgate, escolher uma das modalidades de resgate (Milhas; Smiles&Money; Viaje Fácil, entre outras disponíveis no momento do resgate) e cumprir com os termos e condições de cada modalidade, apresentados no momento da escolha. Ao optar por uma das modalidades, o Participante declara tacitamente que leu, entendeu e aceitou a todos os termos e condições. <br/>2.5. No momento da pesquisa do Bilhete Aéreo a ser resgatado, serão exibidas ao Participante os tipos de tarifa disponíveis e as suas diferentes características, sendo de responsabilidade do Participante a escolha pela tarifa que melhor se adequa às suas necessidades. <br/>2.5.1. A Tarifa Award possui características e restrições específicas quanto à bagagem, remarcação, e entre outras características divergentes da Tarifa Comercial. O Participante deverá observar as regras, restrições, obrigações quanto à modalidade de tarifa escolhida antes de efetivar o resgate e estará disponível na descrição das regras tarifárias do voo selecionado.<br/>2.6. A responsabilidade quanto ao transporte aéreo é exclusiva e restrita tão somente à Parceira Aérea. A SMILES apenas realiza a intermediação do Bilhete Aéreo, em conjunto ou não à Smiles Viagens, conforme o tipo de tarifa, não podendo ser responsabilizada pela ocorrência de eventos danosos ou não, bem como fatos fortuitos ou de força maior, nos termos do item 6.2 deste Contrato. <br/>2.7. A responsabilidade da SMILES é tão somente quanto ao Programa Smiles e às Milhas Smiles, e esta deverá responder por quaisquer acontecimentos extraordinários inerentes ao Programa Smiles e às Milha Smiles. <br/>2.7.1. O Participante poderá  reclamar, em até 30 (trinta) dias, por qualquer problema ocorrido no resgate de Bilhetes Aéreos, sob pena de não mais poder fazê-lo, conforme determina o artigo 26, inciso I, do Código de Defesa do Consumidor.</p>",
+          "shortRuleText": "<p>Resumen de Reglas tarifarias. Consultá las Reglas Tarifarias completas en la pestaña “Reglas tarifarias completas”.</p><p>    <strong class=\"icon icon-luggage\">EQUIPAJE</strong></p><p>Para el vuelo seleccionado La franquicia de equipaje es de hasta 1 pieza(s). Para conocer detalles sobre las franquicias y restricciones de equipaje (dimensiones, peso, restricciones, etc), el Participante deberá contactarse diretamente con la compañía aérea operadora del vuelo.</p><p>La franquicia de equipaje podrá tener reglas diferentes entre los Tramos canjeados.</p><p>    <strong class=\"icon icon-refund\">CANCELACIÓN/ REEMBOLSO</strong></p><p>Solo se permite la cancelación/reembolso total para pasajes no utilizados y válidos, mediante el pago de la tarifa de reembolso de millas del valor de US$ 180,00 por pasajero. Los valores presentados en dólares serán convertidos en la fecha de la solicitud del reembolso, y la cotización corresponderá al día de la solicitud. La cancelación/reembolso podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo con el tipo de tarifa y la compañía aérea elegida.</p><p>Las cancelaciones solicitadas hasta las 23:59 horas del día de la emisión (hora oficial de la República Argentina) podrán ser realizadas sin costo adicional, siempre que el primer tramo del itinerario tenga fecha más allá de los  8(ocho) días computados a partir de la fecha de emision. A los efectos del producto Viaje Fácil, se considerará realizada la emisión el día de la reserva. El producto viaje fácil no puede ser aplicado a tarifas con condición de no reembolsables.</p><p>    <strong class=\"icon icon-endorsement\">MODIFICACIÓN Y TRANSFERENCIA DE PASAJES</strong></p><p>Los Pasajes emitidos con Millas Smiles son de caracter personal, o sea, no son endosables ni transferibles, ni permiten modificación de fecha ni de itinerario.</p><p>    <strong class=\"icon icon-children\">REGLAS PARA NIÑOS</strong></p><p>No se concede ningún tipo de descuento para niños de 2 a 12 años no cumplidos (CHD) sobre la cantidad de Millas Smiles presentadas en el sitio para el canje de Pasajes aéreos, o sea que los niños de 02 (dos) a 12 (doce) años no cumplidos no tendrán ninguna exención ni descuento sobre la cantidad de Millas Smiles y/o tasas necesarias para la emisión de su pasaje aéreo. El Participante deberá contactarse con la compañía aérea elegida para incluir en su pasaje a los niños de pecho (0 a 2 años no cumplidos).</p>"
+        }
+      ],
+      "trackingAmadeus": null,
+      "recalculate": false,
+      "fareValueSmiles": 0.003715,
+      "ndc": false,
+      "codeContext": "FFY",
+      "segmentFlight": "SEGMENT_1",
+      "sourceFare": "AWARD",
+      "passengerByTypeList": [
+        {
+          "code": "ADT",
+          "fareType": "BOARDING_TAX_COST",
+          "value": 54295.3
+        },
+        {
+          "code": "ADT",
+          "fareType": "FARE_COST",
+          "value": 0
+        }
+      ],
+      "luggageRestriction": {
+        "type": "N",
+        "quantity": 1,
+        "shortText": "1ª pieza de equipaje despachado gratuita, además del equipaje de mano."
+      },
+      "dynamicAttributeList": [
+        {
+          "type": "PASSPORT",
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "REDRESS_NUMBER",
+          "show": true,
+          "required": false
+        }
+      ],
+      "taxList": [
+        {
+          "code": "QO",
+          "description": "IMPUESTO DIRECCION NACIONAL DE TURISMO",
+          "money": 1827.5,
+          "refundable": true,
+          "type": "DP"
+        },
+        {
+          "code": "S7",
+          "description": "S7",
+          "money": 255.85,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "TQ",
+          "description": "TASA DE SEGURIDAD",
+          "money": 1462,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "XR",
+          "description": "TASA DE AEROPUERTO",
+          "money": 10416.75,
+          "refundable": true,
+          "type": "AE"
+        },
+        {
+          "code": "AH",
+          "description": "AH",
+          "money": 456.9,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "AY",
+          "description": "AY",
+          "money": 1023.4,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "US",
+          "description": "US",
+          "money": 3856.05,
+          "refundable": true,
+          "type": "AP"
+        },
+        {
+          "code": "US",
+          "description": "US",
+          "money": 3856.05,
+          "refundable": true,
+          "type": "AS"
+        },
+        {
+          "code": "XA",
+          "description": "XA",
+          "money": 699.95,
+          "refundable": true,
+          "type": "CO"
+        },
+        {
+          "code": "XY",
+          "description": "XY",
+          "money": 1279.25,
+          "refundable": true,
+          "type": "CR"
+        },
+        {
+          "code": "YC",
+          "description": "YC",
+          "money": 1191.55,
+          "refundable": true,
+          "type": "AE"
+        },
+        {
+          "code": "XF",
+          "description": "XF",
+          "money": 822.4,
+          "refundable": true,
+          "type": ""
+        }
+      ],
+      "cancellationTax": 180,
+      "cancellationCurrency": "USD",
+      "refundable": true,
+      "refundableText": "Se permite la cancelación/reembolso",
+      "mustTwoPnrs": false,
+      "ticketsTwoPnrText": {
+        "header": "PASAJES CON TARIFAS DIFERENTES",
+        "bodyHeader": "ELEGISTE VUELOS DE IDA Y VUELTA CON DISTINTAS TARIFAS",
+        "body": "Los vuelos que elegiste tienen diferentes tarifas. Por eso, se van a realizar dos reservas separadas que podrían tener reglas tarifarias distintas. Acordate de consultar las reglas de equipaje y de cancelación antes de emitir tu pasaje, y que de querer cancelar tu vuelo, se cobrará una tarifa de cancelación por tramo y por pasajero."
+      },
+      "tracking": {
+        "boardingTaxes": [
+          {
+            "origin": "MDZ",
+            "airportType": "INT",
+            "cost": 27147.65,
+            "boardingTax": 27147.65,
+            "airlineTax": 0,
+            "boardingTaxMilesValue": 22970,
+            "airlineTaxMilesValue": 0,
+            "ticketMilesValue": 85000,
+            "milesValue": 22970,
+            "action": "Exibir",
+            "showSite": true,
+            "trackingPricingMiles": {
+              "PRECIFICACAO": {
+                "nameRule": "Taxa de Embarque Precificação Milhas_10",
+                "description": "Smiles Apos Price: ",
+                "value": "22966"
+              },
+              "ARREDONDAMENTO": {
+                "nameRule": "Taxa de Embarque Arredondamento_10",
+                "description": "Smiles Apos Arredondamento: ",
+                "value": "22970"
+              }
+            }
+          },
+          {
+            "origin": "MIA",
+            "airportType": "INT",
+            "cost": 27147.65,
+            "boardingTax": 27147.65,
+            "airlineTax": 0,
+            "boardingTaxMilesValue": 22970,
+            "airlineTaxMilesValue": 0,
+            "ticketMilesValue": 85000,
+            "milesValue": 22970,
+            "action": "Exibir",
+            "showSite": true,
+            "trackingPricingMiles": {
+              "PRECIFICACAO": {
+                "nameRule": "Taxa de Embarque Precificação Milhas_10",
+                "description": "Smiles Apos Price: ",
+                "value": "22966"
+              },
+              "ARREDONDAMENTO": {
+                "nameRule": "Taxa de Embarque Arredondamento_10",
+                "description": "Smiles Apos Arredondamento: ",
+                "value": "22970"
+              }
+            }
+          }
+        ]
+      },
+      "boardingTax": {
+        "rate": 365.5,
+        "hasPaymentInMiles": true,
+        "miles": 22970,
+        "selectedOption": "money",
+        "money": 27147.65,
+        "airlineTax": 0,
+        "airlineTaxMiles": 0,
+        "boardingTaxMiles": 22970,
+        "boardingTaxMoney": 27147.65
+      }
+    },
+    {
+      "type": "SEGMENT_2",
+      "uid": "0o9nplrxnk8",
+      "stops": 1,
+      "cabin": "ECONOMIC",
+      "sourceGDS": "AMADEUS",
+      "tripType": "Award One Way",
+      "availableSeats": 6,
+      "departure": {
+        "date": "2023-09-15T06:19:00",
+        "airport": {
+          "code": "MIA",
+          "name": "Miami",
+          "city": "Miami",
+          "country": "Estados Unidos"
+        }
+      },
+      "arrival": {
+        "date": "2023-09-16T00:11:00",
+        "airport": {
+          "code": "MDZ",
+          "name": "Governor Francisco Gabrielli",
+          "city": "Mendoza",
+          "country": "Argentina"
+        }
+      },
+      "airline": {
+        "code": "CM",
+        "name": "COPA"
+      },
+      "baggage": {
+        "free": "true",
+        "quantity": 1,
+        "code": "N"
+      },
+      "validatingAirlineCode": "CM",
+      "durationNumber": 1652,
+      "duration": {
+        "hours": 16,
+        "minutes": 52
+      },
+      "timeStop": {
+        "hours": 7,
+        "minutes": 4
+      },
+      "hourMainStop": "08:32-15:36",
+      "airportMainStop": {
+        "code": "PTY",
+        "name": "Panama City Tocumen",
+        "city": "Panamá",
+        "country": "Panamá"
+      },
+      "legList": [
+        {
+          "cabin": "ECONOMIC",
+          "departure": {
+            "date": "2023-09-15T06:19:00",
+            "airport": {
+              "code": "MIA",
+              "name": "Miami",
+              "city": "Miami",
+              "country": "Estados Unidos",
+              "timezone": "America/New_York"
+            }
+          },
+          "arrival": {
+            "date": "2023-09-15T08:32:00",
+            "airport": {
+              "code": "PTY",
+              "name": "Panama City Tocumen",
+              "city": "Panamá",
+              "country": "Panamá",
+              "timezone": "America/Panama"
+            }
+          },
+          "flightNumber": "173",
+          "marketingAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "operationAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "equipment": "738",
+          "stops": 0,
+          "isConnection": "true",
+          "isMainLeg": "false",
+          "congener": {
+            "resBookDesigCode": "X",
+            "eTicketEligibility": "Eligible",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671",
+            "commentList": [
+              "Outbound",
+              "FareType=RX",
+              "TICKETS ARE NON-REFUNDABLE",
+              "LAST TKT DTE",
+              "03SEP23",
+              " - SEE ADV PURCHASE",
+              "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+              "PRIVATE RATES USED *F*",
+              "CORPORATE NAME: SMILES2",
+              "FreeBaggage=True"
+            ],
+            "fareReference": "X"
+          },
+          "duration": 193
+        },
+        {
+          "cabin": "ECONOMIC",
+          "departure": {
+            "date": "2023-09-15T15:36:00",
+            "airport": {
+              "code": "PTY",
+              "name": "Panama City Tocumen",
+              "city": "Panamá",
+              "country": "Panamá",
+              "timezone": "America/Panama"
+            }
+          },
+          "arrival": {
+            "date": "2023-09-16T00:11:00",
+            "airport": {
+              "code": "MDZ",
+              "name": "Governor Francisco Gabrielli",
+              "city": "Mendoza",
+              "country": "Argentina",
+              "timezone": "America/Argentina/Mendoza"
+            }
+          },
+          "flightNumber": "420",
+          "marketingAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "operationAirline": {
+            "code": "CM",
+            "name": "COPA"
+          },
+          "equipment": "738",
+          "stops": 0,
+          "isConnection": "true",
+          "isMainLeg": true,
+          "congener": {
+            "resBookDesigCode": "X",
+            "eTicketEligibility": "Eligible",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671",
+            "commentList": [
+              "Outbound",
+              "FareType=RX",
+              "TICKETS ARE NON-REFUNDABLE",
+              "LAST TKT DTE",
+              "03SEP23",
+              " - SEE ADV PURCHASE",
+              "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+              "PRIVATE RATES USED *F*",
+              "CORPORATE NAME: SMILES2",
+              "FreeBaggage=True"
+            ],
+            "fareReference": "X"
+          },
+          "duration": 395
+        }
+      ],
+      "fareList": [
+        {
+          "uid": "bplkd8hftf",
+          "congener": {
+            "fareReference": "X/X/X/X",
+            "fareInfo": "RU",
+            "negotiatedFareCode": "928671"
+          },
+          "type": "SMILES_CLUB",
+          "baseMiles": 85000,
+          "money": 0,
+          "miles": 77800,
+          "airlineFareAmount": 206.03,
+          "airlineFare": 0,
+          "airlineTax": 50.45,
+          "legListCost": "MIA-PTY = 72.02 / PTY-MDZ = 134.01",
+          "legListCurrency": "USD",
+          "marginRecalc": null,
+          "recalculate": false,
+          "ruleText": "<p><strong class=\"icon icon-flight\">1. TRAMOS DISPONIBLES</strong></p><p>El viaje puede ser de Ida, ida y vuelta com múltiples tramos. No será permitida la realización de Stopovers. El participante podrá emitir un pasaje aéreo desde que haya disponibilidad, observando las reglas de anticipación en el check-in.</p><p>    <strong class=\"icon icon-luggage\">2. EQUIPAJE</strong></p><p>Para el vuelo seleccionado La franquicia de equipaje es de hasta 1 pieza(s). Para detalles sobre franquicias y restricciones de equipaje (dimensiones, peso, restricciones, etc.) el Participante deberá contactarse directamente con la compañía aérea operadora del vuelo.</p><p>La franquicia de equipaje podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo com el tipo de tarifa y compañía aérea elegida.</p><p>    <strong class=\"icon icon-booking\">3. SELECCIÓN DE ASIENTOS</strong></p><p>El Participante deberá contactarse com la compañía aérea operadora del vuelo para selecionar su asiento. Para ello, debe tener en mano el código de reserva de la compañía associada/Número de Pasaje.</p><p>*El Pasaje de la compañía aérea associada internacional que tenga tramos de conexión operados por GOL: El Participante deberá contactarse con el Centro de atención Smiles para la selección de asiento del Tramo operado por GOL.</p><p>    <strong class=\"icon icon-doc\">4. DOCUMENTACIÓN DE EMBARQUE</strong></p><p>4.1 El pasajero es responsable por su propia documentación necesaria para el embarque, desembarque y tránsito en las escalas y conexiones (visado, pasaporte, vacunación, seguro de viaje, eventual valor a pagar en inmigración, etc.). El pasajero deberá verificar cuáles son los documentos necesarios para el embarque de niños de pecho y menores de edad, acompañados o no de responsables, familiares y terceros.</p><p>4.2 El pasajero debe asegurarse de que su nombre y apelido estén completos de forma idéntica a como constan en sus documentos de identificación, no siendo permitida la alteración posterior a la emisión.</p><p>    <strong class=\"icon icon-refund\">5. CANCELACIÓN / REEMBOLSO</strong></p><p>Solo se permite la cancelación/reembolso total para pasajes no utilizados dentro de su validez mediante el pago de la tarifa de reembolso de millas, del valor de US$ 180,00 por pasajero y por tramo. Solo las Millas Smiles con validez vigente serán devueltas a su cuenta, con la misma validez de la acumulación que las generó. El valor pago referente a la tasa de embarque será reembolsado en la misma tarjeta de crédito utilizada.</p><p>Los valores presentados en dólares serán convertidos en la fecha de la solicitud del reembolso de Millas y la cotización será la correspondiente al día de la solicitud. La conversión será realizada previamente por Smiles y cobrada por el Participante en pesos (moneda corriente nacional argentina).</p><p>La cancelación/reembolso podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo com el tipo de tarifa y la compañía aérea elegida. <p>Las cancelaciones solicitadas hasta las 23:59 horas del día de la emisión (hora oficial de la República Argentina) podrán ser realizadas sin costo adicional, siempre que el primer tramo del itinerario tenga fecha más allá de los  8(ocho) días computados a partir de la fecha de emision. A los efectos del producto Viaje Fácil, se considerará realizada la emisión el día de la reserva. El producto viaje fácil no puede ser aplicado a tarifas con condición de no reembolsables.</p></p><p>    <strong class=\"icon icon-mileback\">6. DEVOLUCIÓN DE MILLAS</strong></p><p>De ser pertinente el reembolso, solo las Millas Smiles válidas al momento del pedido serán acreditadas en la Cuenta Smiles con la validez original de la acumulación que las generó. .</p><p>    <strong class=\"icon icon-attendance\">7. NO PRESENTACIÓN AL EMBARQUE (NO-SHOW)</strong></p><p>En el caso de no presentación al embarque, el Participante perderá la cantidad de Millas Smiles utilizadas en el canje del Pasaje. La tasa de embarque será devuelta mediante la solicitud del Participante, acreditándose en la misma tarjeta de crédito el valor utilizado en dinero.</p><p>    <strong class=\"icon icon-endorsement\">8. ENDOSOS Y TRANSFERENCIA DE PASAJES</strong></p><p>Los Pasajes emitidos con Millas Smiles son de caracter personal, o sea, no son endosables ni transferibles, ni permiten cambios de fecha ni de itinerario.</p><p>    <strong class=\"icon icon-credit\">9. CRÉDITO DE MILLAS</strong></p><p>Los pasajes emitidos con Millas Smiles no son elegibles para la acumulación de Millas Smiles en el Programa Smiles.</p><p>    <strong class=\"icon icon-children\">10. REGLAS PARA NIÑOS</strong></p><p>No se concede ningún tipo de descuento sobre la cantidad de Millas Smiles presentadas al momento del canje para niños de 2 a 12 años no cumplidos (CHD), o sea, los niños de 02 (dos) a 12 (doce) años no cumplidos no tendrán ninguna exención ni descuento en la cantidad de Millas Smiles y/o tasas necesarias para la emisión de su pasaje aéreo. Los niños de pecho (0 a 2 años no cumplidos) viajan gratis, y el Participante deberá contactarse con la compañía aérea elegida para sumarlos a su Pasaje.</p><p class=\"icon icon-definition\">1. DEFINIÇÕES</p><p>1.1. Para fins do presente Contrato, utilizam-se as seguintes definições:</p><p>“ANAC”: Agência Nacional de Aviação Civil, agência estatal brasileira regulamentadora da aviação civil;<br/>“Bilhete(s) Aéreo(s)”: É a passagem aérea emitida pela Parceira Aérea, resgatada nos canais de resgate da SMILES por meio de Milhas Smiles pelo Participante, para ser utilizada em voo(s) da Parceira Aérea;<br/>“Check in”: entrada ou embarque em voo doméstico ou internacional;<br/> “Código Brasileiro de Aeronáutica”: norma que dispõe sobre as regras relativas ao espaço aéreo brasileiro, incluindo o transporte de passageiros;<br/>“Contrato de Transporte”: disposições, deveres e obrigações constantes do contrato que regula o transporte aéreo,  por meio do qual o Participante contrata a respectiva Parceira Aérea quando do resgate do Bilhete Aéreo, e a Parceira Aérea se obriga a transportar, por meio de aeronave, o Participante, sua(s) bagagem(ns) e eventual produto acessório contratado;<br/>“Convenção de Varsóvia”: norma internacional que unifica as regras relativas ao transporte aéreo internacional;<br/>“Endosso”: troca da passagem aérea de uma Parceira Aérea para outra Parceira Aérea;<br/>“Escala técnica”: utilização de aeroporto para fins que não sejam o embarque ou desembarque de passageiros;<br/>“Conexão”: utilização de aeroporto para fins de troca de aeronave, ou seja, embarque e desembarque de passageiros antes do destino final;<br/>“Intermediação”: conjunto de meios planejadamente dispostos, sejam eles físicos ou lógicos, objetivando fazer a ligação entre a Parceira Aérea o sistema da SMILES, no qual o Participante insere seus dados para obter a aquisição de Bilhetes Aéreos;<br/>“Milhas Smiles”: É forma de pontuação obtida no Programa Smiles, segundo critérios estabelecidos pela SMILES, que possibilitará ao Participante o resgate de Bilhetes Aéreos;<br/>“No show”: não comparecimento do passageiro em tempo hábil para o embarque;<br/>“Overbooking”: venda de passagens aéreas pelas Parceiras Aéreas em maior número do que o número de assentos disponíveis no avião, para compensar eventuais ausências ou desistências de passageiros;<br/>“Parceiras Aéreas”: empresas de transporte aéreo parceiras da SMILES, responsáveis pelo transporte de passageiros;<br/>“Participante”: pessoa física cadastrada no Programa Smiles;<br/>“Programa Smiles”: programa de coalizão mantido e administrado pela SMILES, constituído de uma plataforma virtual para o acúmulo e resgate de Milhas Smiles para obtenção de prêmios, vantagens ou benefícios, dentre eles o resgate de Bilhetes Aéreos pelos Participantes nas Parceiras Aéreas;<br/>“Smiles Viagens”: Smiles Viagens e Turimos S.A., empresa subsidiária da SMILES, intermediadora de compra e venda de Tarifas Comerciais, entre  Parceira Aérea e a SMILES;<br/> “Tarifa Award”: tipo de tarifa com características negociadas entre a SMILES e a Parceira Aérea;<br/>“Tarifa Comercial”: tipo de tarifa com características negociadas entre a Smiles Viagens, a qual intermedeia a relação entre SMILES e a Parceira Aérea.</p><p class=\"icon icon-endorsement\">2. BILHETES AÉREOS</p><p>2.1. O Participante, ao adquirir o Bilhete Aéreo escolhido, submete-se a todas as condições específicas estipuladas pela Parceira Aérea quanto ao tipo da tarifa escolhida, seja ela Comercial ou Award, as quais são disponibilizadas no momento do resgate.<br/>2.1.1. Ao efetuar resgates através da SMILES, o Participante garante que: (i) é maior de idade; (ii) possui plena capacidade para celebrar contratos; (iii) só utiliza os canais de resgate da SMILES para você e/ou para outra pessoa a qual você possua autorização para atuar em seu nome; e, (iv) toda a informação que fornece à SMILES é verídica, exata, atual e completa.<br/>2.2. Os canais de resgate da SMILES, seja aplicativo móvel, site mobile, central de atendimento, site convencional, ou outros canais futuramente disponíveis aos Participantes pela SMILES, permite a emissão de Bilhetes Aéreos de ida, ida e volta ou com múltiplos trechos.<br/> 2.3. O Participante poderá emitir o Bilhete Aéreo desde que haja disponibilidade, observando as regras de antecedência no Checkin.<br/>2.4. O Participante deverá, no momento do resgate, escolher uma das modalidades de resgate (Milhas; Smiles&Money; Viaje Fácil, entre outras disponíveis no momento do resgate) e cumprir com os termos e condições de cada modalidade, apresentados no momento da escolha. Ao optar por uma das modalidades, o Participante declara tacitamente que leu, entendeu e aceitou a todos os termos e condições. <br/>2.5. No momento da pesquisa do Bilhete Aéreo a ser resgatado, serão exibidas ao Participante os tipos de tarifa disponíveis e as suas diferentes características, sendo de responsabilidade do Participante a escolha pela tarifa que melhor se adequa às suas necessidades. <br/>2.5.1. A Tarifa Award possui características e restrições específicas quanto à bagagem, remarcação, e entre outras características divergentes da Tarifa Comercial. O Participante deverá observar as regras, restrições, obrigações quanto à modalidade de tarifa escolhida antes de efetivar o resgate e estará disponível na descrição das regras tarifárias do voo selecionado.<br/>2.6. A responsabilidade quanto ao transporte aéreo é exclusiva e restrita tão somente à Parceira Aérea. A SMILES apenas realiza a intermediação do Bilhete Aéreo, em conjunto ou não à Smiles Viagens, conforme o tipo de tarifa, não podendo ser responsabilizada pela ocorrência de eventos danosos ou não, bem como fatos fortuitos ou de força maior, nos termos do item 6.2 deste Contrato. <br/>2.7. A responsabilidade da SMILES é tão somente quanto ao Programa Smiles e às Milhas Smiles, e esta deverá responder por quaisquer acontecimentos extraordinários inerentes ao Programa Smiles e às Milha Smiles. <br/>2.7.1. O Participante poderá  reclamar, em até 30 (trinta) dias, por qualquer problema ocorrido no resgate de Bilhetes Aéreos, sob pena de não mais poder fazê-lo, conforme determina o artigo 26, inciso I, do Código de Defesa do Consumidor.</p>",
+          "shortRuleText": "<p>Resumen de Reglas tarifarias. Consultá las Reglas Tarifarias completas en la pestaña “Reglas tarifarias completas”.</p><p>    <strong class=\"icon icon-luggage\">EQUIPAJE</strong></p><p>Para el vuelo seleccionado La franquicia de equipaje es de hasta 1 pieza(s). Para conocer detalles sobre las franquicias y restricciones de equipaje (dimensiones, peso, restricciones, etc), el Participante deberá contactarse diretamente con la compañía aérea operadora del vuelo.</p><p>La franquicia de equipaje podrá tener reglas diferentes entre los Tramos canjeados.</p><p>    <strong class=\"icon icon-refund\">CANCELACIÓN/ REEMBOLSO</strong></p><p>Solo se permite la cancelación/reembolso total para pasajes no utilizados y válidos, mediante el pago de la tarifa de reembolso de millas del valor de US$ 180,00 por pasajero. Los valores presentados en dólares serán convertidos en la fecha de la solicitud del reembolso, y la cotización corresponderá al día de la solicitud. La cancelación/reembolso podrá tener reglas diferentes entre los Tramos canjeados, de acuerdo con el tipo de tarifa y la compañía aérea elegida.</p><p>Las cancelaciones solicitadas hasta las 23:59 horas del día de la emisión (hora oficial de la República Argentina) podrán ser realizadas sin costo adicional, siempre que el primer tramo del itinerario tenga fecha más allá de los  8(ocho) días computados a partir de la fecha de emision. A los efectos del producto Viaje Fácil, se considerará realizada la emisión el día de la reserva. El producto viaje fácil no puede ser aplicado a tarifas con condición de no reembolsables.</p><p>    <strong class=\"icon icon-endorsement\">MODIFICACIÓN Y TRANSFERENCIA DE PASAJES</strong></p><p>Los Pasajes emitidos con Millas Smiles son de caracter personal, o sea, no son endosables ni transferibles, ni permiten modificación de fecha ni de itinerario.</p><p>    <strong class=\"icon icon-children\">REGLAS PARA NIÑOS</strong></p><p>No se concede ningún tipo de descuento para niños de 2 a 12 años no cumplidos (CHD) sobre la cantidad de Millas Smiles presentadas en el sitio para el canje de Pasajes aéreos, o sea que los niños de 02 (dos) a 12 (doce) años no cumplidos no tendrán ninguna exención ni descuento sobre la cantidad de Millas Smiles y/o tasas necesarias para la emisión de su pasaje aéreo. El Participante deberá contactarse con la compañía aérea elegida para incluir en su pasaje a los niños de pecho (0 a 2 años no cumplidos).</p>"
+        }
+      ],
+      "trackingAmadeus": null,
+      "recalculate": false,
+      "fareValueSmiles": 0.003715,
+      "ndc": false,
+      "codeContext": "FFY",
+      "segmentFlight": "SEGMENT_2",
+      "sourceFare": "AWARD",
+      "passengerByTypeList": [
+        {
+          "code": "ADT",
+          "fareType": "BOARDING_TAX_COST",
+          "value": 54295.3
+        },
+        {
+          "code": "ADT",
+          "fareType": "FARE_COST",
+          "value": 0
+        }
+      ],
+      "luggageRestriction": {
+        "type": "N",
+        "quantity": 1,
+        "shortText": "1ª pieza de equipaje despachado gratuita, además del equipaje de mano."
+      },
+      "dynamicAttributeList": [
+        {
+          "type": "PASSPORT",
+          "show": true,
+          "required": true
+        },
+        {
+          "type": "REDRESS_NUMBER",
+          "show": true,
+          "required": false
+        }
+      ],
+      "taxList": [
+        {
+          "code": "QO",
+          "description": "IMPUESTO DIRECCION NACIONAL DE TURISMO",
+          "money": 1827.5,
+          "refundable": true,
+          "type": "DP"
+        },
+        {
+          "code": "S7",
+          "description": "S7",
+          "money": 255.85,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "TQ",
+          "description": "TASA DE SEGURIDAD",
+          "money": 1462,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "XR",
+          "description": "TASA DE AEROPUERTO",
+          "money": 10416.75,
+          "refundable": true,
+          "type": "AE"
+        },
+        {
+          "code": "AH",
+          "description": "AH",
+          "money": 456.9,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "AY",
+          "description": "AY",
+          "money": 1023.4,
+          "refundable": true,
+          "type": "SE"
+        },
+        {
+          "code": "US",
+          "description": "US",
+          "money": 3856.05,
+          "refundable": true,
+          "type": "AP"
+        },
+        {
+          "code": "US",
+          "description": "US",
+          "money": 3856.05,
+          "refundable": true,
+          "type": "AS"
+        },
+        {
+          "code": "XA",
+          "description": "XA",
+          "money": 699.95,
+          "refundable": true,
+          "type": "CO"
+        },
+        {
+          "code": "XY",
+          "description": "XY",
+          "money": 1279.25,
+          "refundable": true,
+          "type": "CR"
+        },
+        {
+          "code": "YC",
+          "description": "YC",
+          "money": 1191.55,
+          "refundable": true,
+          "type": "AE"
+        },
+        {
+          "code": "XF",
+          "description": "XF",
+          "money": 822.4,
+          "refundable": true,
+          "type": ""
+        }
+      ],
+      "cancellationTax": 180,
+      "cancellationCurrency": "USD",
+      "refundable": true,
+      "refundableText": "Se permite la cancelación/reembolso",
+      "mustTwoPnrs": false,
+      "ticketsTwoPnrText": {
+        "header": "PASAJES CON TARIFAS DIFERENTES",
+        "bodyHeader": "ELEGISTE VUELOS DE IDA Y VUELTA CON DISTINTAS TARIFAS",
+        "body": "Los vuelos que elegiste tienen diferentes tarifas. Por eso, se van a realizar dos reservas separadas que podrían tener reglas tarifarias distintas. Acordate de consultar las reglas de equipaje y de cancelación antes de emitir tu pasaje, y que de querer cancelar tu vuelo, se cobrará una tarifa de cancelación por tramo y por pasajero."
+      },
+      "tracking": {
+        "boardingTaxes": [
+          {
+            "origin": "MDZ",
+            "airportType": "INT",
+            "cost": 27147.65,
+            "boardingTax": 27147.65,
+            "airlineTax": 0,
+            "boardingTaxMilesValue": 22970,
+            "airlineTaxMilesValue": 0,
+            "ticketMilesValue": 85000,
+            "milesValue": 22970,
+            "action": "Exibir",
+            "showSite": true,
+            "trackingPricingMiles": {
+              "PRECIFICACAO": {
+                "nameRule": "Taxa de Embarque Precificação Milhas_10",
+                "description": "Smiles Apos Price: ",
+                "value": "22966"
+              },
+              "ARREDONDAMENTO": {
+                "nameRule": "Taxa de Embarque Arredondamento_10",
+                "description": "Smiles Apos Arredondamento: ",
+                "value": "22970"
+              }
+            }
+          },
+          {
+            "origin": "MIA",
+            "airportType": "INT",
+            "cost": 27147.65,
+            "boardingTax": 27147.65,
+            "airlineTax": 0,
+            "boardingTaxMilesValue": 22970,
+            "airlineTaxMilesValue": 0,
+            "ticketMilesValue": 85000,
+            "milesValue": 22970,
+            "action": "Exibir",
+            "showSite": true,
+            "trackingPricingMiles": {
+              "PRECIFICACAO": {
+                "nameRule": "Taxa de Embarque Precificação Milhas_10",
+                "description": "Smiles Apos Price: ",
+                "value": "22966"
+              },
+              "ARREDONDAMENTO": {
+                "nameRule": "Taxa de Embarque Arredondamento_10",
+                "description": "Smiles Apos Arredondamento: ",
+                "value": "22970"
+              }
+            }
+          }
+        ]
+      },
+      "boardingTax": {
+        "rate": 365.5,
+        "hasPaymentInMiles": true,
+        "miles": 22970,
+        "selectedOption": "money",
+        "money": 27147.65,
+        "airlineTax": 0,
+        "airlineTaxMiles": 0,
+        "boardingTaxMiles": 22970,
+        "boardingTaxMoney": 27147.65
+      }
+    }
+  ],
+  "region": "ARGENTINA",
+  "language": "es-ES",
+  "totals": {
+    "total": {
+      "miles": 201540,
+      "money": 54295.3
+    },
+    "passenger": 1,
+    "totalFare": {
+      "miles": 155600,
+      "money": 0
+    },
+    "totalFareBase": {
+      "miles": 170000,
+      "money": 0
+    },
+    "totalBoardingTax": {
+      "miles": 45940,
+      "money": 54295.3,
+      "airlineTax": 0,
+      "airlineTaxMiles": 0,
+      "boardingTaxMiles": 45940,
+      "boardingTaxMoney": 54295.3
+    },
+    "totalPassengerTypeList": [
+      {
+        "type": "ADT",
+        "passenger": 1,
+        "totalFare": {
+          "miles": 155600,
+          "money": 0
+        }
+      }
+    ],
+    "totalByTypeList": [],
+    "totalByTaxList": [
+      {
+        "code": "QO",
+        "description": "IMPUESTO DIRECCION NACIONAL DE TURISMO",
+        "money": 3655,
+        "refundable": true,
+        "type": "DP"
+      },
+      {
+        "code": "S7",
+        "description": "S7",
+        "money": 511.7,
+        "refundable": true,
+        "type": "SE"
+      },
+      {
+        "code": "TQ",
+        "description": "TASA DE SEGURIDAD",
+        "money": 2924,
+        "refundable": true,
+        "type": "SE"
+      },
+      {
+        "code": "XR",
+        "description": "TASA DE AEROPUERTO",
+        "money": 20833.5,
+        "refundable": true,
+        "type": "AE"
+      },
+      {
+        "code": "AH",
+        "description": "AH",
+        "money": 913.8,
+        "refundable": true,
+        "type": "SE"
+      },
+      {
+        "code": "AY",
+        "description": "AY",
+        "money": 2046.8,
+        "refundable": true,
+        "type": "SE"
+      },
+      {
+        "code": "US",
+        "description": "US",
+        "money": 7712.1,
+        "refundable": true,
+        "type": "AP"
+      },
+      {
+        "code": "US",
+        "description": "US",
+        "money": 7712.1,
+        "refundable": true,
+        "type": "AS"
+      },
+      {
+        "code": "XA",
+        "description": "XA",
+        "money": 1399.9,
+        "refundable": true,
+        "type": "CO"
+      },
+      {
+        "code": "XY",
+        "description": "XY",
+        "money": 2558.5,
+        "refundable": true,
+        "type": "CR"
+      },
+      {
+        "code": "YC",
+        "description": "YC",
+        "money": 2383.1,
+        "refundable": true,
+        "type": "AE"
+      },
+      {
+        "code": "XF",
+        "description": "XF",
+        "money": 1644.8,
+        "refundable": true,
+        "type": ""
+      }
+    ]
+  },
+  "mustTwoPnrs": false,
+  "isDocumentRequired": false
+}

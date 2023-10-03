@@ -1,0 +1,5195 @@
+{
+  "requestedFlightSegmentList": [
+    {
+      "type": "SEGMENT_1",
+      "flightList": [
+        {
+          "uid": "yuiweek3bmf",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 246713,
+          "airlineFlightMiles": 249180.13,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T07:40:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 1945,
+          "duration": {
+            "hours": 19,
+            "minutes": 45
+          },
+          "timeStop": {
+            "hours": 3,
+            "minutes": 30
+          },
+          "hourMainStop": "11:25-14:55",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T14:55:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T07:40:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "26",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "1gp7d5et96",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 250000,
+              "baseMiles": 250000,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "luo0o3surf",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 250000,
+              "money": 0,
+              "miles": 235300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "xhfl5j2uit",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 275100,
+              "miles": 37500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "lxo3un8vkg",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 258850,
+              "miles": 35300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "gwsgwuuvnm",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 242800,
+              "miles": 62500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "ggg84p4gjo",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 145700,
+              "miles": 137500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "95baomabh63",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 246713,
+          "airlineFlightMiles": 249180.13,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T14:05:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2610,
+          "duration": {
+            "hours": 26,
+            "minutes": 10
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 0
+          },
+          "hourMainStop": "11:25-21:25",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T21:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T14:05:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "10",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 580
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "pvnn10ygc1",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 250000,
+              "baseMiles": 250000,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "lqe8nky0ah",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 250000,
+              "money": 0,
+              "miles": 235300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "jgrem2l8k1",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 275100,
+              "miles": 37500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "xtwy9jpaax",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 258850,
+              "miles": 35300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "71kwuq94u1",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 242800,
+              "miles": 62500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "59ohvh53bd",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 145700,
+              "miles": 137500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "tuhxmoano1h",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 246713,
+          "airlineFlightMiles": 249180.13,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T23:45:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 3550,
+          "duration": {
+            "hours": 35,
+            "minutes": 50
+          },
+          "timeStop": {
+            "hours": 19,
+            "minutes": 35
+          },
+          "hourMainStop": "11:25-07:00",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-15T07:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T23:45:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "46",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "4bjbu5nihf",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 250000,
+              "baseMiles": 250000,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "w9hmaokv19",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 250000,
+              "money": 0,
+              "miles": 235300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "ye9sxg1nqr",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 275100,
+              "miles": 37500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "74rqwjxbr3",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 258850,
+              "miles": 35300,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "n0h3n8alro",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 242800,
+              "miles": 62500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "u49l7ed025",
+              "congener": {
+                "fareReference": "SLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 250000,
+              "money": 145700,
+              "miles": 137500,
+              "airlineFareAmount": "246713.00",
+              "airlineFare": 0,
+              "airlineTax": 242564.6,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "30x2m96hsca",
+          "stops": 2,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 331143,
+          "airlineFlightMiles": 334454.43,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T15:50:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2755,
+          "duration": {
+            "hours": 27,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 16
+          },
+          "hourMainStop": "14:34-22:50",
+          "airportMainStop": {
+            "code": "CLO",
+            "name": "Alfonso Bonilla Aragon",
+            "city": "Cali",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T13:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T14:34:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "9201",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "320",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 69
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T22:50:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T15:50:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "14",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 600
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "y9kclatqlc",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 335000,
+              "baseMiles": 335000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "ghxjdgdxvh",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 335000,
+              "money": 0,
+              "miles": 315800,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "ykwsav6nvo",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 368700,
+              "miles": 50500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "wp6rp80sjt",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 347450,
+              "miles": 47400,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "xpy0429455",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 325300,
+              "miles": 84000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "89j1ll5gq9",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 195200,
+              "miles": 184500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "tr0kqrlw8jk",
+          "stops": 2,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 331143,
+          "airlineFlightMiles": 334454.43,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T15:50:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2755,
+          "duration": {
+            "hours": 27,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 16
+          },
+          "hourMainStop": "15:46-22:50",
+          "airportMainStop": {
+            "code": "CLO",
+            "name": "Alfonso Bonilla Aragon",
+            "city": "Cali",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T14:37:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T15:46:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "9203",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "320",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 69
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T22:50:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T15:50:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "14",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 600
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "hfv6sg4hh5",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 335000,
+              "baseMiles": 335000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "n4k1pgokjp",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 335000,
+              "money": 0,
+              "miles": 315800,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "qv526yad5r",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 368700,
+              "miles": 50500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "xtojx6hwvv",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 347450,
+              "miles": 47400,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "5lmlcy0u36",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 325300,
+              "miles": 84000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "0jpxcrolaw",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 195200,
+              "miles": 184500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "jtgx7oaeyht",
+          "stops": 2,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 331143,
+          "airlineFlightMiles": 334454.43,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T15:50:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2755,
+          "duration": {
+            "hours": 27,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 16
+          },
+          "hourMainStop": "11:25-17:00",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T17:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T18:09:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "9205",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "320",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 69
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T22:50:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T15:50:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "14",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 600
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "qj2b4n4pdo",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 335000,
+              "baseMiles": 335000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "jcbu9ipav8",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 335000,
+              "money": 0,
+              "miles": 315800,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "ibjik8g1eo",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 368700,
+              "miles": 50500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "aug659j45o",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 347450,
+              "miles": 47400,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "p6o9shri9n",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 325300,
+              "miles": 84000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "ho078g6o9d",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 195200,
+              "miles": 184500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "xrjhg4ta2bt",
+          "stops": 2,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 331143,
+          "airlineFlightMiles": 334454.43,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T15:50:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2755,
+          "duration": {
+            "hours": 27,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 16
+          },
+          "hourMainStop": "11:25-19:45",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T19:45:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T20:54:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "9215",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "320",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 69
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T22:50:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T15:50:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "14",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 600
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "ocsfv0yt8g",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 335000,
+              "baseMiles": 335000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "xo0uo5b1gq",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 335000,
+              "money": 0,
+              "miles": 315800,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "jiah8175pi",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 368700,
+              "miles": 50500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "dmdxi87oga",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 347450,
+              "miles": 47400,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "a80pp4s9gc",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 325300,
+              "miles": 84000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "44vmyuyq2u",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 195200,
+              "miles": 184500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "r5kvdmntoqk",
+          "stops": 2,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 331143,
+          "airlineFlightMiles": 334454.43,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T15:50:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2755,
+          "duration": {
+            "hours": 27,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 16
+          },
+          "hourMainStop": "11:25-20:15",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T20:15:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T21:24:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "9221",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "320",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 69
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T22:50:00",
+                "airport": {
+                  "code": "CLO",
+                  "name": "Alfonso Bonilla Aragon",
+                  "city": "Cali",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T15:50:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "14",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "S",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 600
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "6mwkpg8tcc",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 335000,
+              "baseMiles": 335000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "cpqqbsol5a",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 335000,
+              "money": 0,
+              "miles": 315800,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "daafshtmxa",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 368700,
+              "miles": 50500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "9873noddih",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 347450,
+              "miles": 47400,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "btgglms2vw",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 325300,
+              "miles": 84000,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "3cvmq5dli5",
+              "congener": {
+                "fareReference": "SEOB2BRG",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 335000,
+              "money": 195200,
+              "miles": 184500,
+              "airlineFareAmount": "331143.00",
+              "airlineFare": 0,
+              "airlineTax": 338983.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "0t6ouwnkd00l",
+          "stops": 1,
+          "cabin": "BUSINESS",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Award One Way",
+          "availableSeats": 9,
+          "departure": {
+            "date": "2024-07-14T01:25:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-14T23:45:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "true",
+            "quantity": 2,
+            "code": "N"
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 1720,
+          "duration": {
+            "hours": 17,
+            "minutes": 20
+          },
+          "timeStop": {
+            "hours": 1,
+            "minutes": 0
+          },
+          "hourMainStop": "06:00-07:00",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T01:25:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T06:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "218",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 395
+            },
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T07:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T23:45:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "46",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "42mtlwwfq4",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 365000,
+              "baseMiles": 365000,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "hd9j3iyer7",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 365000,
+              "money": 0,
+              "miles": 333200,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "wnumw6et4x",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 686196,
+              "miles": 54800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "6xa5e20v6t",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 645584.4,
+              "miles": 51610,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "89p9fxmhmb",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 605673,
+              "miles": 91300,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "k9bjxek8js",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 364104,
+              "miles": 200800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 0.003715,
+          "ndc": false,
+          "codeContext": "FFY",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "AWARD",
+          "recommended": false
+        },
+        {
+          "uid": "fp5vkd3ampj",
+          "stops": 1,
+          "cabin": "BUSINESS",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Award One Way",
+          "availableSeats": 9,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T14:05:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "true",
+            "quantity": 2,
+            "code": "N"
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2610,
+          "duration": {
+            "hours": 26,
+            "minutes": 10
+          },
+          "timeStop": {
+            "hours": 10,
+            "minutes": 0
+          },
+          "hourMainStop": "11:25-21:25",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T21:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T14:05:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "10",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 580
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "3ibxxaq3i9",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 365000,
+              "baseMiles": 365000,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "jpms2dpyqa",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 365000,
+              "money": 0,
+              "miles": 333200,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "9g7a1at7po",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 686196,
+              "miles": 54800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "yql00bk2h3",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 645584.4,
+              "miles": 51610,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "eahsyvypod",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 605673,
+              "miles": 91300,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "mdq1etwpgh",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 364104,
+              "miles": 200800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 0.003715,
+          "ndc": false,
+          "codeContext": "FFY",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "AWARD",
+          "recommended": false
+        },
+        {
+          "uid": "lhdnar9deo",
+          "stops": 1,
+          "cabin": "BUSINESS",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Award One Way",
+          "availableSeats": 9,
+          "departure": {
+            "date": "2024-07-14T01:25:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T14:05:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "true",
+            "quantity": 2,
+            "code": "N"
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 3140,
+          "duration": {
+            "hours": 31,
+            "minutes": 40
+          },
+          "timeStop": {
+            "hours": 15,
+            "minutes": 25
+          },
+          "hourMainStop": "06:00-21:25",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T01:25:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T06:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "218",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 395
+            },
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T21:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T14:05:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "10",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 580
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "bg44lqkpgj",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 365000,
+              "baseMiles": 365000,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "xtrukijcsd",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 365000,
+              "money": 0,
+              "miles": 333200,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "fg4pqogtyr",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 686196,
+              "miles": 54800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "w5x1sy0jy4",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 645584.4,
+              "miles": 51610,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "dfi30pfdsk",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 605673,
+              "miles": 91300,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "hcfy1klsgi",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 364104,
+              "miles": 200800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 0.003715,
+          "ndc": false,
+          "codeContext": "FFY",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "AWARD",
+          "recommended": false
+        },
+        {
+          "uid": "jtsb9emqqqo",
+          "stops": 1,
+          "cabin": "BUSINESS",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Award One Way",
+          "availableSeats": 9,
+          "departure": {
+            "date": "2024-07-14T06:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T23:45:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "true",
+            "quantity": 2,
+            "code": "N"
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 3550,
+          "duration": {
+            "hours": 35,
+            "minutes": 50
+          },
+          "timeStop": {
+            "hours": 19,
+            "minutes": 35
+          },
+          "hourMainStop": "11:25-07:00",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-14T06:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T11:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "88",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 390
+            },
+            {
+              "cabin": "BUSINESS",
+              "departure": {
+                "date": "2024-07-15T07:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T23:45:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "46",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "I",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RX",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "NOT FARED AT PASSENGER TYPE REQUESTED *5*",
+                  "PRIVATE RATES USED *F*",
+                  "CORPORATE NAME: SMILES2",
+                  "FreeBaggage=True"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "0okcasgnom",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 365000,
+              "baseMiles": 365000,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "kv5us4x1uh",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 365000,
+              "money": 0,
+              "miles": 333200,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "9uq1he1tb7",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 686196,
+              "miles": 54800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "kh84q5bopm",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 645584.4,
+              "miles": 51610,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "ofmoojobme",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 605673,
+              "miles": 91300,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "7dx3wiqc8h",
+              "congener": {
+                "fareReference": "I",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "928671"
+              },
+              "baseMiles": 365000,
+              "money": 364104,
+              "miles": 200800,
+              "airlineFareAmount": 632.24,
+              "airlineFare": 0,
+              "airlineTax": 76.4,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 0.00630598779492158,
+              "legListCost": "EZE-BOG = 233.04 / BOG-MAD = 399.2",
+              "legListCurrency": "USD",
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 0.003715,
+          "ndc": false,
+          "codeContext": "FFY",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "AWARD",
+          "recommended": false
+        },
+        {
+          "uid": "sj2vga11sbr",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 1,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 425808,
+          "airlineFlightMiles": 430066.08,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T01:25:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-14T23:45:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 1720,
+          "duration": {
+            "hours": 17,
+            "minutes": 20
+          },
+          "timeStop": {
+            "hours": 1,
+            "minutes": 0
+          },
+          "hourMainStop": "06:00-07:00",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T01:25:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T06:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "218",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 395
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T07:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T23:45:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "46",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "fgan6de0jt",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 431000,
+              "baseMiles": 431000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "i1stgcntje",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 431000,
+              "money": 0,
+              "miles": 406000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "65unl7w8lo",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 474300,
+              "miles": 65000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "6g95pse2vp",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 446750,
+              "miles": 60900,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "19ei14nr1w",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 418500,
+              "miles": 108000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "tx2kw690id",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 251100,
+              "miles": 237500,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "xno3dnryso",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 425808,
+          "airlineFlightMiles": 430066.08,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T01:25:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T07:40:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 2515,
+          "duration": {
+            "hours": 25,
+            "minutes": 15
+          },
+          "timeStop": {
+            "hours": 8,
+            "minutes": 55
+          },
+          "hourMainStop": "06:00-14:55",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T01:25:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T06:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "218",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 395
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T14:55:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T07:40:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "26",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 585
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "29aeghsjmp",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 431000,
+              "baseMiles": 431000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "nj7q9qwqnf",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 431000,
+              "money": 0,
+              "miles": 406000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "bhm858af4n",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 474300,
+              "miles": 65000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "28r78mk0bx",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 446750,
+              "miles": 60900,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "ra735cwigx",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 418500,
+              "miles": 108000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "fovkt5ojrx",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 251100,
+              "miles": 237500,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "tvwp8mfcjw",
+          "stops": 1,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 1,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 0,
+          "airlineTaxMiles": null,
+          "airlineFlightMoney": 425808,
+          "airlineFlightMiles": 430066.08,
+          "isAirlineTaxWithFlight": false,
+          "departure": {
+            "date": "2024-07-14T01:25:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T14:05:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AV",
+            "name": "Avianca"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AV",
+          "durationNumber": 3140,
+          "duration": {
+            "hours": 31,
+            "minutes": 40
+          },
+          "timeStop": {
+            "hours": 15,
+            "minutes": 25
+          },
+          "hourMainStop": "06:00-21:25",
+          "airportMainStop": {
+            "code": "BOG",
+            "name": "El Dorado",
+            "city": "Bogotá",
+            "country": "Colombia"
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T01:25:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-14T06:00:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "flightNumber": "218",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": "false",
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 395
+            },
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T21:25:00",
+                "airport": {
+                  "code": "BOG",
+                  "name": "El Dorado",
+                  "city": "Bogotá",
+                  "country": "Colombia",
+                  "timezone": "America/Bogota"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T14:05:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "10",
+              "marketingAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "operationAirline": {
+                "code": "AV",
+                "name": "Avianca"
+              },
+              "equipment": "788",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "H",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null,
+                "commentList": [
+                  "Outbound",
+                  "FareType=RP",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 580
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "teu1publke",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 431000,
+              "baseMiles": 431000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "vk8xxvn1l6",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 431000,
+              "money": 0,
+              "miles": 406000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "oxlxwf18xj",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 474300,
+              "miles": 65000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "erwkywxga1",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 446750,
+              "miles": 60900,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "xfypsvrs00",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 418500,
+              "miles": 108000,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "wnit4oejwy",
+              "congener": {
+                "fareReference": "HLOB2BRR",
+                "fareInfo": "RP",
+                "negotiatedFareCode": null
+              },
+              "baseMiles": 431000,
+              "money": 251100,
+              "miles": 237500,
+              "airlineFareAmount": "425808.00",
+              "airlineFare": 0,
+              "airlineTax": 398377.2,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "ruw70rqnf4a",
+          "stops": 0,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 7,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 97223,
+          "airlineTaxMiles": 311113.6,
+          "airlineFlightMoney": 172882,
+          "airlineFlightMiles": 174610.82,
+          "isAirlineTaxWithFlight": true,
+          "departure": {
+            "date": "2024-07-14T23:55:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T16:10:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "AR",
+            "name": "AEROLINEAS"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "AR",
+          "durationNumber": 1115,
+          "duration": {
+            "hours": 11,
+            "minutes": 15
+          },
+          "timeStop": {
+            "hours": 0,
+            "minutes": 0
+          },
+          "hourMainStop": null,
+          "airportMainStop": {
+            "code": null,
+            "name": null,
+            "city": null,
+            "country": null,
+            "timeZone": null
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T23:55:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T16:10:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "1132",
+              "marketingAirline": {
+                "code": "AR",
+                "name": "AEROLINEAS"
+              },
+              "operationAirline": {
+                "code": "AR",
+                "name": "AEROLINEAS"
+              },
+              "equipment": "330",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "E",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RB",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "CORPORATE NAME: SMILES",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 675
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "ta4i0c07gn",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 486000,
+              "baseMiles": 486000,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "1o4jfbqtms",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 486000,
+              "money": 0,
+              "miles": 458600,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "8oa0cmfdc4",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 486000,
+              "money": 534800,
+              "miles": 73000,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "jqblettpfd",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 486000,
+              "money": 504600,
+              "miles": 68800,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "xn1goch0gx",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 486000,
+              "money": 471900,
+              "miles": 121500,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "3nt1iye9x6",
+              "congener": {
+                "fareReference": "EHOTZ2EB",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 486000,
+              "money": 283200,
+              "miles": 267500,
+              "airlineFareAmount": 270105,
+              "airlineFare": 0,
+              "airlineTax": 360138.7,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        },
+        {
+          "uid": "1qkwtnlw92l",
+          "stops": 0,
+          "cabin": "ECONOMIC",
+          "sourceGDS": "AMADEUS",
+          "tripType": "Comercial One Way",
+          "availableSeats": 9,
+          "mostWanted": false,
+          "promotional": false,
+          "airlineTax": 97223,
+          "airlineTaxMiles": 311113.6,
+          "airlineFlightMoney": 232093,
+          "airlineFlightMiles": 234413.93,
+          "isAirlineTaxWithFlight": true,
+          "departure": {
+            "date": "2024-07-14T12:15:00",
+            "airport": {
+              "code": "EZE",
+              "name": "Ministro Pistarini Ezeiza",
+              "city": "Buenos Aires",
+              "country": "Argentina"
+            }
+          },
+          "arrival": {
+            "date": "2024-07-15T05:10:00",
+            "airport": {
+              "code": "MAD",
+              "name": "Adolfo Suárez Madrid-Barajas",
+              "city": "Madrid",
+              "country": "España"
+            }
+          },
+          "airline": {
+            "code": "UX",
+            "name": "AIR EUROPA"
+          },
+          "baggage": {
+            "free": "false",
+            "quantity": 0,
+            "code": ""
+          },
+          "validatingAirlineCode": "UX",
+          "durationNumber": 1155,
+          "duration": {
+            "hours": 11,
+            "minutes": 55
+          },
+          "timeStop": {
+            "hours": 0,
+            "minutes": 0
+          },
+          "hourMainStop": null,
+          "airportMainStop": {
+            "code": null,
+            "name": null,
+            "city": null,
+            "country": null,
+            "timeZone": null
+          },
+          "legList": [
+            {
+              "cabin": "ECONOMIC",
+              "departure": {
+                "date": "2024-07-14T12:15:00",
+                "airport": {
+                  "code": "EZE",
+                  "name": "Ministro Pistarini Ezeiza",
+                  "city": "Buenos Aires",
+                  "country": "Argentina",
+                  "timezone": "America/Argentina/Buenos_Aires"
+                }
+              },
+              "arrival": {
+                "date": "2024-07-15T05:10:00",
+                "airport": {
+                  "code": "MAD",
+                  "name": "Adolfo Suárez Madrid-Barajas",
+                  "city": "Madrid",
+                  "country": "España",
+                  "timezone": "Europe/Madrid"
+                }
+              },
+              "flightNumber": "42",
+              "marketingAirline": {
+                "code": "UX",
+                "name": "AIR EUROPA"
+              },
+              "operationAirline": {
+                "code": "UX",
+                "name": "AIR EUROPA"
+              },
+              "equipment": "789",
+              "stops": 0,
+              "isConnection": "true",
+              "isMainLeg": true,
+              "congener": {
+                "resBookDesigCode": "U",
+                "eTicketEligibility": "Eligible",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269",
+                "commentList": [
+                  "Outbound",
+                  "FareType=RB",
+                  "TICKETS ARE NON-REFUNDABLE",
+                  "LAST TKT DTE",
+                  "05SEP23",
+                  " - SEE ADV PURCHASE",
+                  "CORPORATE NAME: SMILES",
+                  "FreeBaggage=False"
+                ]
+              },
+              "duration": 715
+            }
+          ],
+          "fareList": [
+            {
+              "uid": "h8q8ri3u9s",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "type": "SMILES",
+              "money": 0,
+              "miles": 546000,
+              "baseMiles": 546000,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "2qvlufeylf",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "type": "SMILES_CLUB",
+              "baseMiles": 546000,
+              "money": 0,
+              "miles": 515000,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "legListCost": "",
+              "legListCurrency": "ARS",
+              "marginRecalc": null,
+              "recalculate": false
+            },
+            {
+              "uid": "8eva82kv9s",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 546000,
+              "money": 600900,
+              "miles": 82000,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "al5t118g9h",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 546000,
+              "money": 566700,
+              "miles": 77300,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 1,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY_CLUB"
+            },
+            {
+              "uid": "k2q3dljcmb",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 546000,
+              "money": 530200,
+              "miles": 136500,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 2,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            },
+            {
+              "uid": "xf4sf4sv9d",
+              "congener": {
+                "fareReference": "UHYR7L",
+                "fareInfo": "RU",
+                "negotiatedFareCode": "031269"
+              },
+              "baseMiles": 546000,
+              "money": 318100,
+              "miles": 300500,
+              "airlineFareAmount": 329316,
+              "airlineFare": 0,
+              "airlineTax": 411652.10000000003,
+              "marginRecalc": null,
+              "recalculate": false,
+              "offer": 3,
+              "fareValue": 1.29457277068646,
+              "type": "SMILES_MONEY"
+            }
+          ],
+          "trackingAmadeus": null,
+          "recalculate": false,
+          "fareValueSmiles": 1.21350844423249,
+          "ndc": false,
+          "codeContext": "",
+          "segmentFlight": "SEGMENT_1",
+          "type": "SEGMENT_1",
+          "sourceFare": "COMERCIAL",
+          "recommended": false
+        }
+      ],
+      "airports": {
+        "departureAirportList": [
+          {
+            "code": "EZE",
+            "name": "Ministro Pistarini Ezeiza",
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "timezone": "America/Argentina/Buenos_Aires"
+          }
+        ],
+        "arrivalAirportList": [
+          {
+            "code": "MAD",
+            "name": "Adolfo Suárez Madrid-Barajas",
+            "city": "Madrid",
+            "country": "España",
+            "timezone": "Europe/Madrid"
+          }
+        ]
+      },
+      "cabinList": [
+        "ECONOMIC",
+        "BUSINESS"
+      ],
+      "companyList": [
+        {
+          "code": "AV",
+          "name": "Avianca"
+        },
+        {
+          "code": "AR",
+          "name": "AEROLINEAS"
+        },
+        {
+          "code": "UX",
+          "name": "AIR EUROPA"
+        }
+      ],
+      "bestPricing": {
+        "miles": 235300,
+        "sourceFare": "COMERCIAL",
+        "fare": {
+          "type": "SMILES_CLUB"
+        },
+        "smilesMoney": {
+          "fare": {
+            "type": "SMILES_MONEY_CLUB"
+          },
+          "miles": 35300,
+          "money": 258850
+        }
+      }
+    }
+  ],
+  "resultType": "congener",
+  "hasCongener": true,
+  "hasG3": false,
+  "tripType": "oneway",
+  "tripTypeRequest": "ONE_WAY",
+  "factorOneSegment": 2,
+  "factorTwoSegments": 0.95,
+  "factorUsed": "unused",
+  "compareFlight": "",
+  "pricingChannelList": null,
+  "isSmFlexActive": false,
+  "passenger": {
+    "adults": "1",
+    "children": "0",
+    "infants": "0"
+  }
+}
