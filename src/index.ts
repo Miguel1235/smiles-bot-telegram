@@ -56,7 +56,7 @@ bot.catch((err, ctx) => {
 // start the bot
 bot.launch({
   webhook: {
-    domain: "smiles-bot-telegram-production.up.railway.app",
+    domain: "https://smiles-bot-telegram-production.up.railway.app/",
   },
 });
 
