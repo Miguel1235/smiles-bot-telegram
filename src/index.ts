@@ -57,8 +57,6 @@ bot.catch((err, ctx) => {
 bot.launch({
   webhook: {
     domain: "smiles-bot-telegram-production.up.railway.app",
-    // Port to listen on; e.g.: 8080
-    port: 80,
   },
 });
 
