@@ -1,6 +1,9 @@
 import { Telegraf } from "telegraf";
 import { message } from "telegraf/filters";
 
+import { Application, Router } from "@cfworker/web";
+import createTelegrafMiddleware from "cfworker-middleware-telegraf";
+
 import quit from "./commands/quit";
 import travel from "./commands/travel";
 import airports from "./commands/airports";
@@ -10,7 +13,17 @@ import regions from "./commands/regions";
 import { HELPER_TEXT } from "./docs/helpDocs";
 import surprise from "./commands/surprise";
 
-const { BOT_TOKEN: token } = process.env;
+declare global {
+  interface Window {
+    BOT_TOKEN: any;
+    API_TOKEN: any;
+    SECRET_PATH: any;
+  }
+}
+
+
+// const { BOT_TOKEN: token } = process.env;
+const token = self.BOT_TOKEN;
 if (token == null) throw new Error('"BOT_TOKEN" env var is required!');
 
 const bot = new Telegraf(token);
@@ -54,7 +67,17 @@ bot.catch((err, ctx) => {
 });
 
 // start the bot
-bot.launch();
+// bot.launch();
+
+const router = new Router();
+
+// const { SECRET_PATH: path } = process.env;
+const path = self.SECRET_PATH;
+if (path == null) throw new Error('"SECRET_PATH" env var is required!');
+
+router.post(`/${path}`, createTelegrafMiddleware(bot));
+new Application().use(router.middleware).listen();
+
 
 // Enable graceful stop
 process.once("SIGINT", () => {
