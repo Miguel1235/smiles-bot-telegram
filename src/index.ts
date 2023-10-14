@@ -54,7 +54,14 @@ bot.catch((err, ctx) => {
 });
 
 // start the bot
-bot.launch();
+bot.launch({
+  webhook: {
+    // Public domain for webhook; e.g.: example.com
+    domain: process.env.CYCLIC_URL || "https://dull-teal-skunk-gear.cyclic.app",
+    // Port to listen on; e.g.: 8080
+    port: 3000,
+  },
+});
 
 // Enable graceful stop
 process.once("SIGINT", () => {
