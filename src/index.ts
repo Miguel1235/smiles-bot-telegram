@@ -15,24 +15,18 @@ if (token == null) throw new Error('"BOT_TOKEN" env var is required!');
 
 const bot = new Telegraf(token);
 
-bot.start((ctx) => {
-  ctx.reply(HELPER_TEXT);
-});
+bot.start((ctx) => ctx.reply(HELPER_TEXT));
+bot.help((ctx) => ctx.reply(HELPER_TEXT));
+
 
 bot.telegram.setMyCommands([
   { command: "start", description: "Pantalla de ayuda del bot" },
-  {
-    command: "sorprendeme",
-    description:
-      "Deja que el bot busque un vuelvo aleatorio a cualquier parte del mundo para vos",
-  },
+  { command: "help", description: "Pantalla de ayuda del bot" },
+  { command: "sorprendeme", description: "Deja que el bot busque un vuelvo aleatorio a cualquier parte del mundo para vos" },
   { command: "aeropuertos", description: "Listado de aeropuertos" },
   { command: "aerolineas", description: "Listado aerolineas" },
   { command: "meses", description: "Obtener el nombre de los meses" },
-  {
-    command: "regiones",
-    description: "Obtener las regiones disponibles para hacer búsquedas",
-  },
+  { command: "regiones",  description: "Obtener las regiones disponibles para hacer búsquedas" },
 ]);
 
 // Commands are the ones that start with
