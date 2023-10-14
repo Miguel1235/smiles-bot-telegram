@@ -1,6 +1,6 @@
 import { type Context, type NarrowedContext } from "telegraf";
 import { Update, type Message } from "telegraf/typings/core/types/typegram";
-import regionsList from "../data/regions";
+import {REGIONS_TEXT} from "../docs/helpDocs";
 
 const regions = async (
   ctx: NarrowedContext<
@@ -11,10 +11,7 @@ const regions = async (
     }
   >
 ) => {
-  const regions2Print = [];
-  for (const [short, long] of Object.entries(regionsList))
-    regions2Print.push(`${short}: ${long}`);
-  await ctx.replyWithHTML(regions2Print.join("\n"));
+  await ctx.reply(REGIONS_TEXT)
 };
 
 export default regions;
