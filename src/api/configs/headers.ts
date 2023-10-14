@@ -1,5 +1,4 @@
-const token = self.API_TOKEN;
-// const { API_TOKEN: token } = process.env;
+const { API_TOKEN: token } = process.env;
 if (token == null) throw new Error('"API_TOKEN" env var is required!');
 
 export const headers = {
