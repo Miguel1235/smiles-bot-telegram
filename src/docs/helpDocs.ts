@@ -33,6 +33,7 @@ export const HELPER_TEXT = fmt`
   ${code`EZE MIA DIC -g NO`} ${italic`${emojis.FINGER} Por defecto el bot agrupa por dia el vuelo sale menos millas, si queres mostrar todos los vuelos, podes usar la option -g NO`}
   ${code`EZE MIA DIC -s 3`} ${italic`${emojis.FINGER} Numero de dias a escanear, por defecto toma 10 dias, si el numero es muy grande la cantidad de requests a smiles es mayor y puede fallar`}
   ${code`EZE MIA DIC -t NO`} ${italic`${emojis.FINGER} No calcular las tasas, si no calculamos las tasas, se hacen menos requests a smiles, por lo tanto la respuesta es mas rápida.`}
+  ${code`EZE MIA DIC -p 2.24`} ${italic`${emojis.FINGER} Especificamos que el precio de las millas es de 2.24, por defecto: 2.19`}
 
   ${bold`${underline`Información:`}`}
 
