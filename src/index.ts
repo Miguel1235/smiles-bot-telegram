@@ -54,11 +54,12 @@ bot.catch((err, ctx) => {
 });
 
 // start the bot
+const { DOMAIN_URL: domain } = process.env;
+if (domain == null) throw new Error('"DOMAIN_URL" env var is required!');
+
 bot.launch({
   webhook: {
-    // Public domain for webhook; e.g.: example.com
-    domain: process.env.CYCLIC_URL || "https://dull-teal-skunk-gear.cyclic.app",
-    // Port to listen on; e.g.: 8080
+    domain,
     port: 3000,
   },
 });
